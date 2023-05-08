@@ -1,0 +1,41 @@
+.color,
+.secret {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: violet;
+}
+
+.secret {
+    outline: 4px ridge yellow;
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image__box {
+    width: 30%;
+    height: 100%;
+    outline: thick double;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.textColor {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.textColor:hover {
+    cursor: pointer;
+}
